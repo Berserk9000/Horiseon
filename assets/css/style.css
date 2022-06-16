@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header Start*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +50,9 @@ a {
 p {
     font-size: 16px;
 }
+/*Header End*/
 
+/*Hero Style Start*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,17 +61,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*Hero Style End*/
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Content Style Start*/
 .content {
     width: 75%;
     display: inline-block;
@@ -87,9 +82,19 @@ p {
 .content-mid img {
     max-height: 200px;
 }
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
+/* Content Style Start*/
 
+/* Benefit Style Start*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,7 +121,9 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+/* Benefit Style end*/
 
+/* Footer Start*/
 footer {
     padding: 30px;
     clear: both;
@@ -128,3 +135,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* Footer End*/
